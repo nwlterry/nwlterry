@@ -1,0 +1,92 @@
+# nwlterry repository groups (content-based)
+# Catalog: https://github.com/nwlterry/nwlterry
+
+groups:
+  - id: elastic-lab
+    name: Elastic Stack lab (Hyper-V)
+    anchor: 1-elastic-stack-lab-hyper-v
+    repos:
+      - elastic_stack_on_hyper-v
+      - elk_cluster_post_os_patching_restart
+      - elk_cluster_health_check
+      - es_nfs_repo
+      - es_node_disk_tuning
+      - elasticsearch_ldap_gmsa
+
+  - id: es-ilm-dashboards
+    name: Elasticsearch ILM, indices, dashboards
+    anchor: 2-elasticsearch-ilm-indices-dashboards
+    repos:
+      - elasticsearch_cluster_ilm_review
+      - es-ilm-query
+      - elasticsearch_query
+      - elk_index_monitoring
+      - elk_stack_monitor
+      - elasticsearch_stack_information_dashboard
+      - elastic-mapper-size
+      - elk_mapper-size
+
+  - id: es-plugins-upgrades
+    name: Elastic plugins and upgrades
+    anchor: 3-elastic-plugins-and-upgrades
+    repos:
+      - elasticsearch_upgrade
+      - elk_upgrade
+
+  - id: agent-apm-ml
+    name: Elastic Agent, APM, ML, JVM
+    anchor: 4-elastic-agent-apm-ml-jvm
+    repos:
+      - elastic-agent-uptime-ocp
+      - rancher_elastic-agent
+      - SampleDotNetApp_with_Elastic_APM_Agent
+      - elasticsearch_ml_job
+      - elastic_brainstorm_ml_job
+      - elasticsearch-http-json
+      - java_heap_dump
+
+  - id: openshift-logging
+    name: OpenShift logging
+    anchor: 5-openshift-logging
+    repos:
+      - openshift-logging-external-elasticsearch
+      - ocp-logforward-elk
+      - ocp_clean_empty_project
+
+  - id: kafka-confluent
+    name: Kafka / Confluent
+    anchor: 6-kafka--confluent
+    repos:
+      - kafka_integration
+      - kafka_dashboard_grafana_query
+      - kafka-connect_connector_config_bulk_export
+      - confluent_redis_kafka_connector
+      - kafa_lag_exporter_fix
+
+  - id: certs-pki
+    name: Certificates / Windows PKI
+    anchor: 7-certificates--windows-pki
+    repos:
+      - iis_cert_automation
+      - ssrs_cert-automation
+      - certificarte_management
+      - acme-adcs_upgrade_planning
+      - eraser_project
+
+  - id: ops-tools
+    name: Ops tools
+    anchor: 8-ops-tools
+    repos:
+      - ado_rest_rools
+      - curl-time
+      - dd-disk-test
+      - powershell
+      - dolphinscheduler-dashboards
+
+  - id: placeholder
+    name: Placeholder (empty)
+    anchor: 9-placeholder-empty
+    repos:
+      - elastic_artifact_registry-alpine
+      - elastic_java_oom
+      - katacoda-scenarios
