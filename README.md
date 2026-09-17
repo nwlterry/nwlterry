@@ -4,21 +4,19 @@ All GitHub repositories for [nwlterry](https://github.com/nwlterry), grouped by 
 
 **44 repositories** · **41 with content** · **3 empty**
 
-Each content repo also has a [`GROUP.md`](groups.yml) that names its group and sibling repos.
+Each content repo has a `GROUP.md` that names its group and sibling repos. Machine-readable map: [`groups.yml`](groups.yml).
 
 | Group | Repos |
 | --- | ---: |
 | [Elastic Stack lab (Hyper-V)](#1-elastic-stack-lab-hyper-v) | 6 |
 | [Elasticsearch ILM, indices, dashboards](#2-elasticsearch-ilm-indices-dashboards) | 8 |
-| [Elastic plugins and upgrades](#3-elastic-plugins-and-upgrades) | 4 |
+| [Elastic plugins and upgrades](#3-elastic-plugins-and-upgrades) | 2 |
 | [Elastic Agent, APM, ML, JVM](#4-elastic-agent-apm-ml-jvm) | 7 |
 | [OpenShift logging](#5-openshift-logging) | 3 |
 | [Kafka / Confluent](#6-kafka--confluent) | 5 |
 | [Certificates / Windows PKI](#7-certificates--windows-pki) | 5 |
-| [Ops tools](#8-ops-tools) | 3 |
+| [Ops tools](#8-ops-tools) | 5 |
 | [Placeholder (empty)](#9-placeholder-empty) | 3 |
-
-Machine-readable map: [`groups.yml`](groups.yml).
 
 ---
 
