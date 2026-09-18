@@ -156,3 +156,19 @@ No files to group yet. Left as created.
 3. **`GROUP.md`** in each content repo names the group and lists siblings.
 
 Repos were not moved into GitHub Organizations (that would change clone URLs). Grouping is by content, not by renaming.
+
+## File layout convention
+
+Content repos use the same folder names where they apply:
+
+| Folder | Use |
+| --- | --- |
+| `scripts/` | Current runnable scripts |
+| `archive/` | Older versions (v01, .bak) |
+| `docs/` | Guides and notes |
+| `manifests/` | Kubernetes/OpenShift YAML |
+| `dashboards/` / `alerts/` | Kibana saved objects |
+| `packages/` | Plugin zips and split archives |
+| `data/` / `queries/` | CSV, mappings, query samples |
+| `tools/` | Diagnostics (lab repo) |
+
